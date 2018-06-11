@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Col, Container, Row, CardTitle, 
-    CardSubtitle, CardText, Button, CardBody,
+    CardSubtitle, Button, CardBody,
     Card, CardImg, ListGroup, ListGroupItem} from 'reactstrap';
 
 class Main extends Component {

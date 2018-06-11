@@ -11,8 +11,8 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
-
   import './navi.css';
+  import { Link } from 'react-router-dom'
 
 class Navi extends Component {
   constructor(props) {
@@ -32,15 +32,16 @@ class Navi extends Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Home Care</NavbarBrand>
+          <Link to="/lc/home" className="navbar-brand">Home Care</Link>
+          
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/Home/">Landscaping</NavLink>
+               <Link to="/lc/landscaping" className="nav-link">Landscaping</Link>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Home Improvement</NavLink>
+              <Link to="/lc/landscaping" className="nav-link">Home Improvement</Link>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
@@ -48,14 +49,14 @@ class Navi extends Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                  Appointments
+                  <Link to="/lc/appointments" className="nav-link">Appointments</Link>
                   </DropdownItem>
                   <DropdownItem>
-                  Contacts
+                  <Link to="/lc/contacts" className="nav-link">Contact</Link>
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
-                  Gallary
+                  <Link to="/lc/gallery" className="nav-link">Gallary</Link>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
