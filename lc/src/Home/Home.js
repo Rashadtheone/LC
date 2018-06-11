@@ -1,12 +1,23 @@
 import React, { Component } from 'react';
-import {Col, Container, Row} from 'reactstrap' 
+import {Col, Container, Row,
+    Jumbotron, } from 'reactstrap' 
 import Navi from '../Nav/Navi';
 import Main from '../Main/Main';
+import HomeGallary from '../Gallaries/HomeGallary';
+import LawnGallary from '../Gallaries/LawnGallary';
+
+
 
 class Home extends Component {
     render() {
         return (
-            <div>
+            <div>      
+            <Jumbotron fluid>
+            <Container fluid>
+              <h1 className="display-3">Home Care</h1>
+              <p className="lead">Improving a home? Need some Landscaping? You're in the right place for quaility services. </p>
+            </Container>
+          </Jumbotron>
                 <Navi></Navi>
                 <Container>
 
@@ -18,10 +29,10 @@ class Home extends Component {
           {/* slideshow modules  */}
           <Col md="3">
           <Row>
-          Lawn Care Slide     
+          <LawnGallary />    
           </Row>
           <Row>
-          Home Care Slide 
+          <HomeGallary /> 
           </Row>
           </Col>
           
