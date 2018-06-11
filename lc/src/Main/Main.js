@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Col, Container, Row, CardTitle, 
     CardSubtitle, CardText, Button, CardBody,
-    Card, CardImg} from 'reactstrap';
+    Card, CardImg, ListGroup, ListGroupItem} from 'reactstrap';
 
 class Main extends Component {
     render() {
@@ -13,10 +13,16 @@ class Main extends Component {
                     <Card>
         <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
+          <CardTitle>Home Improvement</CardTitle>
+          <CardSubtitle>Total Care</CardSubtitle>
+              <ListGroup>
+        <ListGroupItem>Cras justo odio</ListGroupItem>
+        <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
+        <ListGroupItem>Morbi leo risus</ListGroupItem>
+        <ListGroupItem>Porta ac consectetur ac</ListGroupItem>
+        <ListGroupItem>Vestibulum at eros</ListGroupItem>
+      </ListGroup>
+          <Button>Set Appointment</Button>
         </CardBody>
       </Card>
                     </Col>
@@ -24,10 +30,16 @@ class Main extends Component {
                     <Card>
         <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
+          <CardTitle>Landscaping </CardTitle>
+          <CardSubtitle>Quaility Improvements</CardSubtitle>
+          <ListGroup>
+        <ListGroupItem>Cras justo odio</ListGroupItem>
+        <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
+        <ListGroupItem>Morbi leo risus</ListGroupItem>
+        <ListGroupItem>Porta ac consectetur ac</ListGroupItem>
+        <ListGroupItem>Vestibulum at eros</ListGroupItem>
+      </ListGroup>
+          <Button>Set Appointment</Button>
         </CardBody>
       </Card>
                     </Col>

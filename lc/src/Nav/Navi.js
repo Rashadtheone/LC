@@ -12,6 +12,8 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 
+  import './navi.css';
+
 class Navi extends Component {
   constructor(props) {
     super(props);
@@ -35,10 +37,10 @@ class Navi extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/Home/">Lawn Care</NavLink>
+                <NavLink href="/Home/">Landscaping</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Home Care</NavLink>
+                <NavLink href="https://github.com/reactstrap/reactstrap">Home Improvement</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
