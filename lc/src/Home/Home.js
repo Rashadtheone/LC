@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Col, Container, Row,
-    Jumbotron, } from 'reactstrap' 
+    Jumbotron, ListGroup, ListGroupItem } from 'reactstrap' 
 import Navi from '../Nav/Navi';
 import Main from '../Main/Main';
 import HomeGallary from '../Gallaries/HomeGallary';
@@ -38,7 +38,24 @@ class Home extends Component {
           
         </Row>
         <Row>
-          <Col md="12">footer</Col>
+          <Col md="6">
+          Contacts
+          <Row>
+              Phone #: 
+          </Row>
+          <Row>
+              Email:
+          </Row>
+          </Col>         
+          <Col md="6">
+          Social Media
+          <Row>
+              Instagram: 
+          </Row>
+          <Row>
+              Facebook:
+          </Row>
+          </Col>
         </Row>
       </Container>
             </div>

@@ -9,14 +9,16 @@ class LandscapingM extends Component {
                 <Navi />
         <Jumbotron fluid>
         <Container fluid>
-          <h1 className="display-3">Fluid jumbotron</h1>
-          <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1 className="display-3">Contact Me</h1>
+          <h3 >Ed Claiborne</h3>
+          <h4>Phone # 240-***-****</h4>
+          
         </Container>
       </Jumbotron>
       <Form>
         <FormGroup>
           <Label for="exampleEmail">Email</Label>
-          <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
+          <Input type="email" name="email" id="exampleEmail" placeholder="Email" />
         </FormGroup>
         <FormGroup>
           <Label for="exampleSelect">Select</Label>

@@ -16,11 +16,11 @@ class Main extends Component {
           <CardTitle>Home Improvement</CardTitle>
           <CardSubtitle>Total Care</CardSubtitle>
               <ListGroup>
-        <ListGroupItem>Cras justo odio</ListGroupItem>
-        <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-        <ListGroupItem>Morbi leo risus</ListGroupItem>
-        <ListGroupItem>Porta ac consectetur ac</ListGroupItem>
-        <ListGroupItem>Vestibulum at eros</ListGroupItem>
+        <ListGroupItem>Painting</ListGroupItem>
+        <ListGroupItem>Pluming</ListGroupItem>
+        <ListGroupItem>Fixing/Knocking down walls</ListGroupItem>
+        <ListGroupItem>Changing light Fixures</ListGroupItem>
+        <ListGroupItem>Etc</ListGroupItem>
       </ListGroup>
           <Button>Set Appointment</Button>
         </CardBody>
@@ -33,11 +33,11 @@ class Main extends Component {
           <CardTitle>Landscaping </CardTitle>
           <CardSubtitle>Quaility Improvements</CardSubtitle>
           <ListGroup>
-        <ListGroupItem>Cras justo odio</ListGroupItem>
-        <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-        <ListGroupItem>Morbi leo risus</ListGroupItem>
-        <ListGroupItem>Porta ac consectetur ac</ListGroupItem>
-        <ListGroupItem>Vestibulum at eros</ListGroupItem>
+        <ListGroupItem>Lawn Care</ListGroupItem>
+        <ListGroupItem>Staining Decks</ListGroupItem>
+        <ListGroupItem>Repair / Put up gates</ListGroupItem>
+        <ListGroupItem>Power Washing</ListGroupItem>
+        <ListGroupItem>Etc</ListGroupItem>
       </ListGroup>
           <Button>Set Appointment</Button>
         </CardBody>
