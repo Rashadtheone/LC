@@ -31,7 +31,7 @@ class Navi extends Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar color="dark" dark expand="md">
           <Link to="/lc/home" className="navbar-brand">Home Care</Link>
           
           <NavbarToggler onClick={this.toggle} />
@@ -47,7 +47,7 @@ class Navi extends Component {
                 <DropdownToggle nav caret>
                   Services
                 </DropdownToggle>
-                <DropdownMenu right>
+                <DropdownMenu right background-color="black"> 
                   <DropdownItem>
                   <Link to="/lc/appointments" className="nav-link">Appointments</Link>
                   </DropdownItem>

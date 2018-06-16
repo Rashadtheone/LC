@@ -5,7 +5,7 @@ import Navi from '../Nav/Navi';
 import Main from '../Main/Main';
 import HomeGallary from '../Gallaries/HomeGallary';
 import LawnGallary from '../Gallaries/LawnGallary';
-
+import './home.css'
 
 
 class Home extends Component {
@@ -36,26 +36,6 @@ class Home extends Component {
           </Row>
           </Col>
           
-        </Row>
-        <Row>
-          <Col md="6">
-          Contacts
-          <Row>
-              Phone #: 
-          </Row>
-          <Row>
-              Email:
-          </Row>
-          </Col>         
-          <Col md="6">
-          Social Media
-          <Row>
-              Instagram: 
-          </Row>
-          <Row>
-              Facebook:
-          </Row>
-          </Col>
         </Row>
       </Container>
             </div>

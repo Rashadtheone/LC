@@ -1,6 +1,17 @@
-.navbar-light .navbar-brand {
-    font-size: x-large;
+.navbar-dark .navbar-brand {
+    font-size: 4vh;
 }
 .navbar-light .navbar-nav .nav-link {
     font-size: large;
+}
+
+.navbar-expand-md .navbar-collapse {
+    background-color: darkgreen !important;
+}
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    background-color: darkgreen !important;
+}
+
+.nav-link {
+    font-size: 4vh;
 }

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {Col, Container, Row, CardTitle, 
     CardSubtitle, Button, CardBody,
-    Card, CardImg, ListGroup, ListGroupItem} from 'reactstrap';
-
+    Card, CardImg, ListGroup, ListGroupItem} from 'reactstrap'
+    import './main.css';
 class Main extends Component {
     render() {
         return (
@@ -11,7 +11,7 @@ class Main extends Component {
                     <Row>
                     <Col md='6'>
                     <Card>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+        <CardImg top width="100%" src="http://driglo.com.au/wp-content/uploads/2018/04/porch-home-improvement.jpg" alt="Card image cap" />
         <CardBody>
           <CardTitle>Home Improvement</CardTitle>
           <CardSubtitle>Total Care</CardSubtitle>
@@ -28,7 +28,7 @@ class Main extends Component {
                     </Col>
                     <Col md='6'>
                     <Card>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+        <CardImg top width="100%" src="https://www.razorsync.com/images/industry-lp-lawncare.jpg" alt="Card image cap" />
         <CardBody>
           <CardTitle>Landscaping </CardTitle>
           <CardSubtitle>Quaility Improvements</CardSubtitle>
