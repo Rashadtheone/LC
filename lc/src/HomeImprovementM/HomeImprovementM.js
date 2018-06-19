@@ -13,12 +13,12 @@ class LandscapingM extends Component {
                         <img src = "https://diy.sndimg.com/content/dam/images/diy/fullset/2005/2/11/0/dadh206_1fb.jpg.rend.hgtvcom.1280.960.suffix/1420774271472.jpeg"/>
                     </Col>
                     <Col md='4'>
-                        I offer Dry Wall replacement
+                        <h1>I offer Dry Wall replacement</h1>
                     </Col>
                 </Row>
                 <Row className='floor'>
                 <Col md='4'>
-                        I offer floor replacement
+                        <h1>I offer floor replacement</h1>
                     </Col>
                 <Col md='8'>
                         <img src = "https://silverflooring.com/wp-content/uploads/2017/03/Water-Damage-Floor-Replacement-5.jpg" />
@@ -29,7 +29,7 @@ class LandscapingM extends Component {
                         <img src = "http://o.b5z.net/i/u/10221858/i/bigstock-One-male-house-painter-worker--38818072.jpg" />
                     </Col>
                 <Col md='4'>
-                        I offer painting services.
+                        <h1>I offer painting services.</h1>
                     </Col>
                 </Row>
 
