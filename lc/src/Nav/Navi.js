@@ -41,7 +41,7 @@ class Navi extends Component {
                <Link to="/lc/landscaping" className="nav-link">Landscaping</Link>
               </NavItem>
               <NavItem>
-              <Link to="/lc/landscaping" className="nav-link">Home Improvement</Link>
+              <Link to="/lc/homeimprovement" className="nav-link">Home Improvement</Link>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>

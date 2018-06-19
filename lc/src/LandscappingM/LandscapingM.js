@@ -10,26 +10,26 @@ class LandscapingM extends Component {
             <Container>
                 <Row>
                     <Col md='8'>
-                        picture area
+                        <img src='https://media.bizj.us/view/img/6950102/howtomowlawn*750xx2125-1197-0-57.jpg'/>
                     </Col>
                     <Col md='4'>
-                        text area
+                        I offer Lawn Maintenance services 
                     </Col>
                 </Row>
                 <Row>
                 <Col md='4'>
-                        Text area
+                        I offer path setting services 
                     </Col>
                 <Col md='8'>
-                        picture area
+                        <img src='https://janedata.files.wordpress.com/2008/11/img_1368.jpg'/>
                     </Col>
                 </Row>
                 <Row>
                 <Col md='8'>
-                        picture area
+                        <img src = 'https://i.ytimg.com/vi/dN8LBey17O8/maxresdefault.jpg'/>
                     </Col>
                 <Col md='4'>
-                        text area
+                        I offer landscaping services
                     </Col>
                 </Row>
                 <Row>

@@ -12,7 +12,7 @@ class App extends Component {
       <div className="App">
         <Route exact path="/lc/home" render={() => (<Home />)} />
         <Route exact path="/lc/landscaping" render={() => (<LandscapingM />)} />
-        <Route exact path="/lc/homeImprovement" render={() => (<HomeImprovementM />)} />
+        <Route exact path="/lc/homeimprovement" render={() => (<HomeImprovementM />)} />
         <Route exact path="/lc/appointments" render={() => (<Appointments />)} />
         <Route exact path="/lc/contacts" render={() => (<Contacts />)} />
         <Route exact path="/lc/gallery" render={() => (<Gallery />)} />
