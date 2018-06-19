@@ -1,3 +1,25 @@
-img {
+
+.drywall {
+    width:100%;
+}
+
+.drywall img {
     margin: 10px;
+}
+
+.floor {
+    width:100%;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.floor img {
+    margin:10px;
+}
+
+.painting {
+width: 100%;
+}
+
+.painting img{
+    margin:10px;
 }

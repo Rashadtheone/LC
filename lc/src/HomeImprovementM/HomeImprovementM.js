@@ -32,14 +32,7 @@ class LandscapingM extends Component {
                         I offer painting services.
                     </Col>
                 </Row>
-                <Row>
-                <Col md='4'>
-                        Text area
-                    </Col>
-                <Col md='8'>
-                        picture area
-                    </Col>
-                </Row>
+
             </Container>
             </div>
         );
