@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import Navi from '../Nav/Navi';
-class LandscapingM extends Component {
+import Calendar from 'react-calendar';
+
+class Appointments extends Component {
     render() {
         return (
             <div>
                 <Navi />
+                <Calendar />
             </div>
         );
     }
 }
 
-export default LandscapingM;
+export default Appointments;

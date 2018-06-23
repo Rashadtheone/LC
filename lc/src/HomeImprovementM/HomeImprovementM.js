@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Navi from '../Nav/Navi';
 import { Container, Row, Col } from 'reactstrap';
 import './homei.css'
-class LandscapingM extends Component {
+
+class HomeImprovementM extends Component {
     render() {
         return (
             <div>
@@ -39,4 +40,4 @@ class LandscapingM extends Component {
     }
 }
 
-export default LandscapingM;
+export default HomeImprovementM;
